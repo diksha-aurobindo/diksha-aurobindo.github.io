@@ -3,73 +3,76 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Diksha Aurobindo | Data Scientist & Engineer</title>
+  <title>Diksha Aurobindo</title>
   <link rel="stylesheet" href="assets/css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav>
-    <div class="nav-left">Diksha</div>
-    <div class="nav-right">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#experience">Experience</a>
-      <a href="#projects">Projects</a>
-      <a href="#resume">Resume</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </nav>
+  <header class="modern-header">
+    <nav class="top-nav">
+      <div class="logo">✨ Diksha</div>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
 
-  <section id="home" class="hero-section">
-    <div class="hero-left">
-      <img src="assets/img/profile.jpg" alt="Diksha Aurobindo" class="profile-img">
-    </div>
-    <div class="hero-right">
+  <section id="home" class="hero-grid">
+    <div class="hero-text">
       <h1>Hello, I'm Diksha 👋</h1>
-      <p class="subtitle">Data Scientist & Engineer | Columbia University '25 | National Squash Player</p>
+      <h2>Data Scientist & Engineer</h2>
+      <p>Building scalable systems & stories with data. Columbia University '25 | National Squash Player</p>
       <a href="#resume" class="cta">View Resume</a>
     </div>
-  </section>
-
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I’m from Tamil Nadu, India, and graduating from Columbia University with a degree in Computer Science. My journey blends academics, analytics engineering, and competitive squash—giving me grit, focus, and a systems mindset.</p>
-  </section>
-
-  <section id="experience">
-    <h2>Experience</h2>
-    <div class="card">
-      <h3>Analytics Engineer @ CVS Health</h3>
-      <p>Led data migration and built scalable pipelines. Worked across teams to improve reporting workflows and decision-making. Tools: Python, SQL, GCP, Airflow.</p>
-    </div>
-    <div class="card">
-      <h3>Course Projects @ Columbia</h3>
-      <p>Worked on real-world data problems in ML & Big Data courses. Highlights include sentiment analysis, subway complaint clustering, and a predictive model for maintenance.</p>
+    <div class="hero-image">
+      <img src="assets/img/profile.jpg" alt="Diksha Aurobindo" class="profile-pic">
     </div>
   </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="card">
-      <h3>Lighting Conditions & Surveillance on 125th Street</h3>
-      <p>A data storytelling + spatial analysis project using 311 complaints, isochrone maps, and field observations. Combined policy, design, and technical analysis.</p>
-    </div>
-    <div class="card">
-      <h3>SmartWigs Predictive Maintenance</h3>
-      <p>Built a time-series based failure prediction model for CNC machines, improving uptime by over 40%. Implemented using Python + sklearn + AWS.</p>
-    </div>
-  </section>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>From Tamil Nadu to Columbia University, I’ve pursued a path where logic meets creativity. I thrive in spaces where data shapes impactful decisions—and where focus and resilience, honed through national-level squash, guide my approach.</p>
+    </section>
 
-  <section id="resume">
-    <h2>Resume</h2>
-    <a href="assets/pdf/Diksha_Aurobindo_Resume.pdf" target="_blank" class="cta">Download PDF</a>
-  </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="card">
+        <h3>CVS Health – Analytics Engineer</h3>
+        <p>Led data pipeline modernization and migration to GCP. Designed analytics systems that drove better decisions across business teams.</p>
+      </div>
+    </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>📧 diksha@example.com</p>
-    <p><a href="https://linkedin.com/in/diksha-aurobindo" target="_blank">LinkedIn</a> | <a href="https://github.com/dikshaaurobindo" target="_blank">GitHub</a></p>
-  </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h4>Lighting & Surveillance Mapping</h4>
+          <p>Used 311 + isochrones + field data to analyze Harlem's infrastructure and safety perception.</p>
+        </div>
+        <div class="project-card">
+          <h4>SmartWigs CNC Predictor</h4>
+          <p>Built ML model to predict CNC failures; increased uptime and reduced cost.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+      <a href="assets/pdf/Diksha_Aurobindo_Resume.pdf" target="_blank" class="cta">Download PDF</a>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>📧 diksha@example.com</p>
+      <p><a href="https://linkedin.com/in/diksha-aurobindo" target="_blank">LinkedIn</a> | <a href="https://github.com/dikshaaurobindo" target="_blank">GitHub</a></p>
+    </section>
+  </main>
 
   <footer>
     <p>© 2025 Diksha Aurobindo</p>
