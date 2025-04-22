@@ -51,50 +51,49 @@
   }
   
   /* === HERO SECTION === */
+  
+  
   .hero-grid {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
   align-items: center;
-  gap: 4rem;
   padding: 6rem 10%;
-  min-height: 100vh;
   background-color: #ffffff;
   background-image: 
-    linear-gradient(to right, rgba(0, 0, 0, 0.02) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.02) 1px, transparent 1px);
+    linear-gradient(to right, #f9f9f9 1px, transparent 1px), 
+    linear-gradient(to bottom, #f9f9f9 1px, transparent 1px);
   background-size: 24px 24px;
 }
 
-  
-  
-  .profile-pic {
-    width: 350px;
-    height: 520px;
-    object-fit: cover;
-    border-radius: 1rem;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
-    margin: auto;
-  }
-  
-  .hero-text h1 {
-    font-size: 3rem;
-    font-weight: 800;
-    margin-bottom: 1rem;
-  }
-  
-  .hero-text h2 {
-    font-size: 1.2rem;
-    font-weight: 500;
-    margin-bottom: 1rem;
-    color: #555;
-  }
-  
-  .hero-text p {
-    font-size: 1rem;
-    color: #555;
-    margin-bottom: 2rem;
-  }
+.profile-pic {
+  width: 320px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 1rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  margin: auto;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.hero-text h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
   
   .cta {
     background-color: #1C1C1C;
