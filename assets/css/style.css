@@ -52,18 +52,14 @@
   
   /* === HERO SECTION === */
   .hero-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    align-items: center;
-    padding: 6rem 10%;
-    min-height: 100vh;
-    background-color: #ffffff;
     background-image: 
-      linear-gradient(to right, #f9f9f9 1px, transparent 1px), 
-      linear-gradient(to bottom, #f9f9f9 1px, transparent 1px);
-    background-size: 24px 24px;
+      linear-gradient(to right, rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+      linear-gradient(135deg, #f0f4ff 0%, #ffffff 100%);
+    background-size: 24px 24px, 24px 24px, cover;
   }
+  
+  
   
   .profile-pic {
     width: 350px;
